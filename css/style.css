@@ -9,6 +9,17 @@ html {
     font-family: 'Concert One', sans-serif;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* Header */
+.container {
+    text-align: center;
+    padding: 15px 20px;
+}
 h1 {
     font-size: 50px;
     color: #e53170;
@@ -17,10 +28,7 @@ h1 {
 .titolo {
     width: 100%;
     text-align: center;
-    padding: 30px;
+    padding-bottom: 30px;
 
-}
-main {
-    padding: 0% 10%;
-    text-align: center;
-}
+
+/* Main */

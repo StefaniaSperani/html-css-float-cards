@@ -42,14 +42,28 @@ p{
 
 /* Creazione sezione membro */
 section {
-
+    
     background-color: #0f0e17;
     text-align: left;
     color: #ffffff;
+    width: 350px;
 }
+/* Scritte al suo interno */
 .mail {
     color: #5cc8f2;
+    padding: 10px;
+    padding-left: 120px;
 }
+
+.job {
+    padding-left: 120px;
+}
+
+h3 {
+    padding: 11px;
+    padding-left: 120px;
+}
+/* Avatar */
 img {
     width: 100px;
     float: left;

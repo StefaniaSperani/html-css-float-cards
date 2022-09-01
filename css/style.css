@@ -18,8 +18,10 @@ html {
 /* Header */
 .container {
     text-align: center;
-    padding: 30px 400px;
-    margin: 0px 100px;
+    max-width: 1200px;
+    /* padding: 30px 400px;
+    margin: 0px 100px; */
+    margin: 0 auto;
 }
 
 h1 {
@@ -31,7 +33,7 @@ h1 {
 .titolo {
     width: 100%;
     text-align: center;
-    padding-bottom: 30px;
+    padding: 40px ;
 }
 
 
@@ -39,34 +41,35 @@ h1 {
 
 p{
     padding-bottom: 30px;
+    font-size: 20px;
 }
 
+main {
+    text-align: center;
+}
 /* Creazione sezione membro */
-section {
+.card {
     box-shadow: 2px 2px 5px black;
     background-color: #0f0e17;
     text-align: left;
     color: #ffffff;
-    width: 350px;
+    width: 370px;
+    float: left;
+    margin: 20px 15px 35px 15px;
 }
 /* Scritte al suo interno */
 .mail {
     color: #5cc8f2;
     padding: 10px;
-    padding-left: 120px;
-}
-
-.job {
-    padding-left: 120px;
 }
 
 h3 {
     padding: 11px;
-    padding-left: 120px;
 }
 /* Avatar */
 img {
     width: 100px;
     float: left;
+    margin-right: 12px;
 
 }

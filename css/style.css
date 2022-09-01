@@ -18,8 +18,10 @@ html {
 /* Header */
 .container {
     text-align: center;
-    padding: 30px 100px;
+    padding: 30px 70px;
+    margin: 0px 100px;
 }
+
 h1 {
     font-size: 50px;
     color: #e53170;
@@ -33,3 +35,23 @@ h1 {
 
 
 /* Main */
+
+p{
+    padding-bottom: 30px;
+}
+
+/* Creazione sezione membro */
+section {
+
+    background-color: #0f0e17;
+    text-align: left;
+    color: #ffffff;
+}
+.mail {
+    color: #5cc8f2;
+}
+img {
+    width: 100px;
+    float: left;
+
+}
